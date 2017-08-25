@@ -1,0 +1,23 @@
+<body>
+  <div class="flex-row">
+    <% @projects.each do |project| %>
+
+        <div class="project-container" >
+          <div class="wrapper card-wrapper">
+            <div class="card flex-column">
+              <%= image_tag(project.image, class: "card-img-top", alt: "Project image") %>
+              <div class="card-block">
+                <h3 class="card-title"><%= project.name %></h3>
+                <p id="minor-text"><%= project.skill %></p>
+                <p class="card-text"><%= project.description.html_safe %></p>
+                <%= link_to project.url do %>
+                  <button class="btn btn-primary">View Project</button>
+                <% end %>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    <% end %>
+  </div>
+</body>

@@ -1,0 +1,60 @@
+$primary-color: #2A2A2A;
+$nav-color: #D3D3D3;
+$navbar-default-bg: $primary-color;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+p, body {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+a {
+  color: $nav-color;
+}
+a:hover {
+  color: white;
+}
+// navbar-layout
+#logo {
+  float: left;
+  color: white;
+}
+
+#nav-link {
+  color: $nav-color;
+  text-align: center;
+}
+
+#nav-link:hover {
+  color: white;
+  text-decoration: none;
+}
+.navbar-default {
+  margin: 0;
+}
+.icon-bar {
+   background-color: white !important;
+}
+
+// Home-layout
+#home-body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $primary-color;
+  overflow: hidden; // Hides the excess whitespace
+}
+
+.home-container {
+  background-image: image-url('backgroundImage.jpg');
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+.item {
+  max-width: 50%;
+  background-color: $primary-color;
+  border: none;
+}
