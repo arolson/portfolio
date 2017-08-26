@@ -2,10 +2,14 @@
 
 one:
   name: MyString
-  description: MyText
-  images: MyString
+  description: MyString
+  image: MyString
+  url: MyString
+  skill: MyString
 
 two:
   name: MyString
-  description: MyText
-  images: MyString
+  description: MyString
+  image: MyString
+  url: MyString
+  skill: MyString
