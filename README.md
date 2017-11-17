@@ -1,29 +1,17 @@
-<<<<<<< HEAD
 # README
+<h2>My Portfolio</h2>
+Ruby on Rails Web application built for myself as a display for projects.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Configuration
+Follow the [Ruby on Rails guide](http://guides.rubyonrails.org/getting_started.html) to correctly setup your local enviroment.
+<h3>Development instructions</h3>
+Clone the repository then run the following commands from the command line:
+<ol>
+  <li>cd portfolio</li>
+  <li>bundle install --without production</li>
+  <li>rake db:migrate</li>
+  <li>rails s -b 0.0.0.0</li>
+</ol>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# portfolio
-My Portfolio Page
->>>>>>> 80a3073be7e71e90cda492240fe669b03cd3ea36
+# Licence 
+by: Andrew Olson
